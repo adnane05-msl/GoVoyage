@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse, faCalendarCheck, faCompass, faUser, faMessage  } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons'
@@ -23,11 +24,10 @@ function Footer() {
                     <div className='Navigation col'>
                         <h3 className='text-center'>Navigation</h3>
                             <ul className='list-emplacement Navigation-list '>
-                                <li><a href="" className="d-flex align-items-center"><FontAwesomeIcon icon={faHouse}          className='icon'/>Accueil</a></li>
-                                <li><a href="" className="d-flex align-items-center"><FontAwesomeIcon icon={faCalendarCheck}  className='icon'/>réservation</a></li>
-                                <li><a href="" className="d-flex align-items-center"><FontAwesomeIcon icon={faCompass}        className='icon'/>À propos</a></li>
-                                <li><a href="" className="d-flex align-items-center"><FontAwesomeIcon icon={faMessage}           className='icon'/>Contact</a></li>
-                            
+                                <li><Link to='/'className="d-flex align-items-center"><FontAwesomeIcon icon={faHouse}                className='icon'/>Accueil</Link></li>
+                                <li><Link to='/Reservation'className="d-flex align-items-center"><FontAwesomeIcon icon={faCalendarCheck}    className='icon'/>réservation</Link></li>
+                                <li><Link to='/Apropos'className="d-flex align-items-center"><FontAwesomeIcon icon={faCompass}              className='icon'/>À propos</Link></li>
+                                <li><Link to='/Contact'className="d-flex align-items-center"><FontAwesomeIcon icon={faMessage}              className='icon'/>Contact</Link></li>
                             </ul>
                     </div>
 

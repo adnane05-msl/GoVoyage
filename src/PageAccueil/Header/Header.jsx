@@ -12,7 +12,7 @@ function Header() {
                 </video>
                 
                 <div className='solgan'>
-                    <h1>" Bienvenue sur  <span>GoVoyage</span> "</h1>
+                    <h1>"Bienvenue sur  <span>GoVoyage</span>"</h1>
                     <br />
                     <p>- Réservez votre prochain voyage en quelques clics -</p>
 
