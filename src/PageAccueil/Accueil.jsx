@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar/Navbar'
 import Header from './Header/Header'
 import Footer from './Footer/Footer'
-import ContentAccueil from './contentAccueil/contentAccueil'
+import ContentAccueil from './ContentAccueil/ContentAccueil'
 function Accueil() {
     return (
         <div>
