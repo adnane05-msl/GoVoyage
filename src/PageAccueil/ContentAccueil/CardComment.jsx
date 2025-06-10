@@ -1,6 +1,6 @@
 import React from 'react'
 import './CardComment.css'
-import StarRating from './starRating'
+import StarRating from './StarRating'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleUser, faCommentDots } from '@fortawesome/free-solid-svg-icons'
