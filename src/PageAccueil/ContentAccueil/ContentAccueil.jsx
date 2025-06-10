@@ -2,7 +2,7 @@ import React from 'react'
 import './ContentAccueil.css'
 import Couple from '../../assets/couple.jpg'
 //DerniersVoyages
-import CardDerniersVoyages from 'c:/Users/user/Desktop/Projet Dev Web/projet/src/PageAccueil/ContentAccueil/CardDerniersVoyages'
+import CardDerniersVoyages from './CardDerniersVoyages'
 import Interlaken from '../../assets/derniers-voyages/Interlaken-suisse.jpg'
 import Madrid from '../../assets/derniers-voyages/madrid-espagne.jpg'
 import Rome from '../../assets/derniers-voyages/rome-italy.jpg'
@@ -15,7 +15,7 @@ import Avion from '../../assets/Nos transports/Avionn.jpg'
 import Bus from '../../assets/Nos transports/Bus.jpg'
 import Bateau from '../../assets/Nos transports/Bateau.jpg'
 //infoComment
-import CardComment from 'c:/Users/user/Desktop/Projet Dev Web/projet/src/PageAccueil/ContentAccueil/CardComment'
+import CardComment from './CardComment'
 
 
 
