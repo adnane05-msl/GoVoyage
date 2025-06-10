@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+.ContentApropos{
+    margin-top: 30px;
+}
+
+/* titre */
+
+.ContentApropos section .titre{
+    font-weight: bold;
+    font-size: clamp(20px, 3vw, 30px);
+    text-transform: capitalize;
+    font-family: "Playfair Display", serif;
+    margin-left: 20px;
+    margin-bottom: 45px;
+    border-left: 6px solid #FF6B00;
+    padding-left: 10px;
+}
+
+/* Introduction */
+
+.ContentApropos #intoduction .sectionOne{
+    display: flex;
+    align-items: center;
+    margin: 30px 90px;
+    padding-right: 15px;
+    gap: 30px;
+}
+.ContentApropos section .paragraphe{
+    text-indent: 3em;
+    font-size: 17px;
+}
+.ContentApropos #intoduction .sectionOne img{
+    width: 300px;
+    height: 200px;
+    box-shadow: -7px 6px 6px  #ff6a00e3;
+}
+.ContentApropos section .paragraphe span{
+    text-decoration: underline;
+    text-decoration-color: #ff6a00;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* historique */
+
+.ContentApropos #historique .sectionTwo{
+    margin: 0px 50px;
+    gap: 90px;
+    margin-bottom: 90px;
+}
+
+
+@media (max-width: 968px) {
+    .ContentApropos section .titre{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    .ContentApropos #intoduction .sectionOne{
+        flex-direction: column-reverse;
+        margin: 0px 10px;
+        padding-right: 0px;
+    }
+    .ContentApropos #intoduction .sectionOne img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .ContentApropos #historique .sectionTwo{
+        flex-direction: column-reverse;
+        margin: 0px 5px;
+        padding-right: 0px;
+    }
+    
+    .ContentApropos section .paragraphe{
+        font-size: 15px;
+        text-indent: 2em;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .ContentApropos #historique .sectionTwo {
+        margin: 0 20px;
+    }
+    
+    .ContentApropos #intoduction .sectionOne {
+        margin: 30px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Vos styles mobiles existants */
+}

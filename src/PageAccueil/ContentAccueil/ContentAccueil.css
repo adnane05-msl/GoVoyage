@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.ContentAccueil #premier-section p{
+    text-align: center;
+    color: #d16313;
+    font-size: clamp(16px, 3vw, 30px);
+    font-weight: bold;
+    padding-top: 40px;
+}
+.ContentAccueil #premier-section .image-couple{
+    width: 65vw;
+}
+
+.ContentAccueil .ligne{
+    border: none;
+    border-radius: 10px;
+    height: 4px;
+    background-color: #e87c2f;
+    width: 50%;
+    margin: 20px auto; 
+}
+
+.ContentAccueil section .titre{
+    font-weight: bold;
+    font-size: clamp(20px, 3vw, 30px);
+    text-transform: capitalize;
+    font-family: "Playfair Display", serif;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-left: 6px solid #FF6B00;
+    padding-left: 10px;
+}
+
+/* derniers voyages */
+.ContentAccueil #derniers-voyages .album-voyages .image{
+    padding: 2px;
+}
+.ContentAccueil #derniers-voyages .album-voyages {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1024px) {
+    .ContentAccueil #derniers-voyages .album-voyages {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .ContentAccueil #derniers-voyages .album-voyages {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 15px;
+    }
+} 
+
+
+/* transport */
+
+.ContentAccueil #nos-transports .moyen-transport{
+    padding: 0px 0px 5px 65px;
+}
+.ContentAccueil #nos-transports .album-transport{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 15px 30px 15px;
+}
+.ContentAccueil #nos-transports .album-transport .image-transport{
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+}
+
+
+
+
+/* comments */
+
+
+.ContentAccueil #commentaires .comments {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    padding: 0 15px 20px;
+    scrollbar-width: thin;
+    scrollbar-color: #d16313 #f1f1f1;
+}
+
+.ContentAccueil #commentaires .comments::-webkit-scrollbar {
+    height: 8px;
+}
+
+.ContentAccueil #commentaires .comments::-webkit-scrollbar-thumb {
+    background-color: #d16313;
+    border-radius: 4px;
+}
+
+.ContentAccueil #commentaires .border-comment {
+    border: 2px solid #d1621389;
+    border-radius: 8px;
+    min-width: 300px;
+    flex-shrink: 0;
+}
+
+
+
+
+
+

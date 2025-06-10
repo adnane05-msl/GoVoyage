@@ -1,0 +1,53 @@
+.carte-transport{
+    width: 350px;
+}
+
+/* nom transport */
+
+.carte-transport .card-body .nom-transport{
+    text-align: center;
+    font-weight: bold;
+    color: #d16313;
+}
+.carte-transport:hover{
+    transform: scale(105%);
+    z-index: 1;
+}
+
+@media (max-width: 1024px) { /* Pour iPad */
+    .carte-transport {
+        max-width: 300px;
+    }
+    
+    .carte-transport .card-img-top {
+        height: 180px;
+    }
+    
+    .carte-transport .card-body .nom-transport {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) { /* Pour tablettes plus petites */
+    .carte-transport {
+        max-width: 100%;
+    }
+    
+    .carte-transport .card-img-top {
+        height: 220px;
+    }
+}
+
+@media (max-width: 480px) { /* Pour mobiles */
+    .carte-transport .card-img-top {
+        height: 180px;
+    }
+    
+    .carte-transport .card-body {
+        padding: 15px;
+    }
+    
+    .carte-transport .card-body .nom-transport {
+        font-size: 1.2rem;
+    }
+}
