@@ -23,10 +23,10 @@ function Footer() {
                     <div className='Navigation col'>
                         <h3 className='text-center'>Navigation</h3>
                             <ul className='list-emplacement Navigation-list '>
-                                <li><a href="../Accueil.jsx" className="d-flex align-items-center"><FontAwesomeIcon icon={faHouse}          className='icon'/>Accueil</a></li>
-                                <li><a href="../../PageReservation/Reservation.jsx" className="d-flex align-items-center"><FontAwesomeIcon icon={faCalendarCheck}  className='icon'/>réservation</a></li>
-                                <li><a href="../../PageApropos/Apropos.jsx" className="d-flex align-items-center"><FontAwesomeIcon icon={faCompass}        className='icon'/>À propos</a></li>
-                                <li><a href="../../PageContact/Contact.jsx" className="d-flex align-items-center"><FontAwesomeIcon icon={faMessage}           className='icon'/>Contact</a></li>
+                                <li><a href="" className="d-flex align-items-center"><FontAwesomeIcon icon={faHouse}          className='icon'/>Accueil</a></li>
+                                <li><a href="" className="d-flex align-items-center"><FontAwesomeIcon icon={faCalendarCheck}  className='icon'/>réservation</a></li>
+                                <li><a href="" className="d-flex align-items-center"><FontAwesomeIcon icon={faCompass}        className='icon'/>À propos</a></li>
+                                <li><a href="" className="d-flex align-items-center"><FontAwesomeIcon icon={faMessage}           className='icon'/>Contact</a></li>
                             
                             </ul>
                     </div>
